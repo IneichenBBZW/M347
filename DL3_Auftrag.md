@@ -4,10 +4,10 @@
 
 * Du steuerst Docker **mit Python**
 * Du startest **Container**
-* Du siehst  **klare Ausgaben** , die du verstehen kannst
+* Du siehst  **klare Ausgaben**, die du verstehen kannst
 
 👉 Wichtig:
-Docker  **muss bereits installiert und gestartet sein** .
+Docker  **muss bereits installiert und gestartet sein**.
 Python steuert Docker nur – es installiert Docker nicht selbst.
 
 ## Vorbereitung (einmal nötig)
@@ -90,7 +90,7 @@ Betriebssystem: linux
 Architektur: amd64
 ```
 
-👉 Docker ist ein  **Server** , Python spricht mit ihm über eine  **API** .
+👉 Docker ist ein  **Server**, Python spricht mit ihm über eine  **API**.
 
 ## Erstes Image herunterladen
 
@@ -202,7 +202,7 @@ Netzwerk: bridge
 IP-Adresse: 172.17.0.2
 ```
 
-👉 Jeder Container bekommt  **seine eigene IP-Adresse** .
+👉 Jeder Container bekommt  **seine eigene IP-Adresse**.
 
 ## Container stoppen und löschen
 
@@ -574,10 +574,10 @@ for image in client.images.list():
 docker rmi $(docker images -q)
 ```
 
-## Merksatz für Lernende
+## Merksatz
 
-> **Python + Docker SDK = Fernbedienung**
-> **Docker CLI = direkt drücken**
+> **Python + Docker SDK = Fernbedienung**\
+> **Docker CLI = direkt**
 
-Beides steuert  **denselben Docker-Server** .
+Beides steuert  **denselben Docker-Server**.
 Nur die Sprache ist anders.

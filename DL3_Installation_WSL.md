@@ -2,7 +2,7 @@
 
 ## Ziel
 
-Du installierst  **Ubuntu unter Windows** .
+Du installierst  **Ubuntu unter Windows**.
 Ubuntu läuft **in WSL 2** (Windows Subsystem for Linux).
 
 Damit kannst du:
@@ -167,7 +167,7 @@ Damit kannst du:
 4. Starte die Installation
 5. Übernimm die Standard-Einstellungen
 
-👉 VS Code läuft jetzt  **unter Windows** .
+👉 VS Code läuft jetzt  **unter Windows**.
 
 **Schulalltag-Beispiel:**
 VS Code ist dein Heft. WSL ist der Schulserver.
@@ -209,7 +209,7 @@ aber deine Dateien liegen im Lehrer-PC.
 ## 4️⃣ Erweiterung **Python (Microsoft)** installieren
 
 ⚠️ Wichtig:
-Diese Erweiterung wird  **in WSL installiert** , nicht nur in Windows.
+Diese Erweiterung wird  **in WSL installiert**, nicht nur in Windows.
 
 1. In VS Code: **Extensions öffnen**
 2. Suche nach **Python**
@@ -243,7 +243,7 @@ Python 3.12.x
 
 ## Ziel
 
-Du installierst **Docker** unter  **Ubuntu in WSL 2** .
+Du installierst **Docker** unter  **Ubuntu in WSL 2**.
 Danach kannst du:
 
 * Container starten
@@ -327,7 +327,7 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo usermod -aG docker $USER
 ```
 
-⚠️ Danach  **WSL neu starten** :
+⚠️ Danach  **WSL neu starten**:
 
 ### In PowerShell:
 
@@ -378,7 +378,7 @@ Am Ende kannst du:
 * WSL 2 ist installiert
 * Ubuntu läuft in WSL 2
 * Docker ist installiert
-  (siehe Anleitung  *Docker installieren (WSL 2 + Ubuntu)* )
+  (siehe Anleitung  *Docker installieren (WSL 2 + Ubuntu)*)
 
 ## 1️⃣ Ubuntu starten
 
@@ -439,7 +439,7 @@ pip install docker
 ```
 
 👉 Das ist **nicht** Docker selbst.
-👉 Das ist das  **Python-Werkzeug** , um Docker zu steuern.
+👉 Das ist das  **Python-Werkzeug**, um Docker zu steuern.
 
 ## 8️⃣ Test: Docker mit Python ansprechen
 
